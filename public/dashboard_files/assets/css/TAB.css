@@ -1,0 +1,42 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tab {
+    width: 100%;
+}
+
+.tab ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.tab ul li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: #5e72e4;
+    background-color: #fff;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 3px rgba(50, 60, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+    border: 0;
+}
+
+
+
+.tab ul li.active {
+    background-color: #5e72e4;
+    color: #fff;
+}
+
+.tab div:first-of-type {
+    display: flex;
+}
+
+.tab div:not(:first-of-type) {
+    display: none;
+}
